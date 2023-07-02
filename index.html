@@ -7,20 +7,25 @@
   <style>
     /* Write your CSS Code here */
     .flag {
+      position: relative;
       background-color: #ce1126;
       width: 900px;
       height: 600px;
       margin: 0px;
     }
     .flag > p {
-      position: relative;
       margin: 0px;
       text-align: center;
+      font-size: 5rem;
     }
     div.flag > div {
       background-color:#002868;
+      width: 900px;
       height: 300px;
       margin:0px;
+      position:absolute;
+      top: 150px;
+      align-items: center;
     }
 
     div.flag > div > div {
@@ -30,13 +35,15 @@
       position:relative;
       top: 150px;
       left: 50%;
+      background-color: white;
     }
     div.flag > div > div > p {
       position: relative;
       top:50%;
       left:150px;
       text-align: center;
-
+      color: black;
+      font-size: 5rem;
     }
 
   </style>
@@ -53,7 +60,7 @@ https://appbrewery.github.io/flag-of-laos/
 -->
 <body>
   <div class="flag">
-    <p>The Flag</p>
+    <p style = "color:white;">The Flag</p>
     <div>
       <div>
         <p>of Laos</p>
